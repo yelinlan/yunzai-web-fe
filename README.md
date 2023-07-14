@@ -1,7 +1,8 @@
 # yunzai-web-fe
 ### 项目来自 https://github.com/117503445/yunzai-bot-web
 ### 希望 web能与QQ一起用
-### 安装依赖 npm install pnpm -g pnpm install
+### 安装依赖 npm install   
+  pnpm -g pnpm install
 ### 打包 npm run build 在dist目录
 ### 把包放到 服务器
 # 使用nginx代理
