@@ -9,12 +9,12 @@
 yum install nginx
 nginx -v
 ### 修改配置
-cd /etc/nginx
+cd /etc/nginx  
 vi nginx.config
 ###   刷新配置，并重启
- nginx -t 
- nginx -s reload
- service nginx restart
+ nginx -t   
+ nginx -s reload  
+ service nginx restart  
 #配置如下
 ```
 user root;
@@ -87,20 +87,20 @@ http {
 }
 ```
 ###   输入IP：端口访问
-403原因（user:root|777|selinux|）:
-https://juejin.cn/post/6978740097428488222
+403原因（user:root|777|selinux|）:  
+https://juejin.cn/post/6978740097428488222  
 
 # 新建目录
 ### 如下
-/root/Miao-Yunzai/web-data/nginx/dist
-/root/Miao-Yunzai/web-data/images
+/root/Miao-Yunzai/web-data/nginx/dist  
+/root/Miao-Yunzai/web-data/images  
 
 ### 复制原先web的插件
 cp server.js api.rest 到 /root/Miao-Yunzai/lib/tools 目录下
 # 启动
 ### 在目录下/root/Miao-Yunzai执行命令
- node ./lib/tools/server.js
- ![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/0a91f8be-9e99-49fd-a6e3-61ed98e6399a)
+ node ./lib/tools/server.js  
+ ![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/0a91f8be-9e99-49fd-a6e3-61ed98e6399a)  
  ### 访问 IP
  ![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/f9f20e44-6931-4ccf-9443-8065abcce43c)
 
