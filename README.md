@@ -2,6 +2,13 @@
 # yunzai-web-fe
 ### 项目来自 https://github.com/117503445/yunzai-bot-web
 ### 希望 web能与QQ一起用（但是会起两个独立应用，希望可以优化为只起一个应用）
+# 先看效果
+### QQ
+![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/74c92895-b7af-42a1-b5d9-13c81640b84d)
+
+### Web
+![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/935718ab-cfef-4a7f-bdf5-aedef16edeb3)
+
 ### 安装依赖 
   npm install     
   pnpm -g pnpm install
