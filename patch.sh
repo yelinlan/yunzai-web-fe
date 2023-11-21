@@ -3,11 +3,14 @@
 PROJECT_PATH=$PWD
 MiaoPath=$PROJECT_PATH/Miao-Yunzai-master
 
+#Miaoweb打包
 cd $PROJECT_PATH/Miao-Web
 pnpm i
 pnpm build
+#复制打包好的网页端到Miao崽
+cp -r $PROJECT_PATH/Miao-Web/dist $MiaoPath/web-data
 
-
+#复制配置文件
 cd $PROJECT_PATH
 cp $PROJECT_PATH/patch/template/redis.yaml $MiaoPath/config/config/redis.yaml
 
@@ -20,9 +23,6 @@ cp $PROJECT_PATH/patch/template/api.rest $MiaoPath/lib/tools/api.rest
 cp $MiaoPath/lib/config/init.js $MiaoPath/lib/config/init.js.backup
 sed -i 's/await createQQ()/\/\/await createQQ()/g' $MiaoPath/lib/config/init.js
 cp $PROJECT_PATH/patch/template/config.json $MiaoPath/web-data/config.json
-
-#复制打包好的网页端到Miao崽
-cp -r $PROJECT_PATH/Miao-Web/dist $MiaoPath/web-data
 
 #Miao崽装依赖
 cd $MiaoPath
