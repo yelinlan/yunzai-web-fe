@@ -1,7 +1,8 @@
 #!/bin/bash
 #把文件复制到Miao崽目录
+MiaoName=$1
 PROJECT_PATH=$PWD
-MiaoPath=$PROJECT_PATH/Miao-Yunzai-master
+MiaoPath=$PROJECT_PATH/$MiaoName
 
 #Miaoweb打包
 cd $PROJECT_PATH/Miao-Web
