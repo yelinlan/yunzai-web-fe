@@ -1,7 +1,6 @@
 
 # yunzai-web-fe
 ### 项目来自 https://github.com/117503445/yunzai-bot-web
-### 希望 web能与QQ一起用（但是会起两个独立应用，希望可以优化为只起一个应用,唉，看不懂前端，心累，熬夜搞了一通宵）
 # 先看效果  只支持Miao崽
 ### Web
 ![image](https://github.com/yelinlan/yunzai-web-fe/assets/38036830/18a435f8-0449-453a-a43a-69c00307df07)
