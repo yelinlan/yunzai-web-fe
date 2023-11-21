@@ -13,9 +13,6 @@ export default defineConfig((env) => {
     },
     plugins: [vue()],
     server: {
-      hmr: {
-        overlay: false,
-      },
       host: '0.0.0.0',
       port: 1002,
       open: false,
